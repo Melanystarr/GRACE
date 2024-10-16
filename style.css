@@ -21,6 +21,8 @@ body{
   font-size: 30px;
   width: 95%;
   padding: 10px 0px;
+  color: white;
+  background-color: black;
 }
 .slide1{
   display: flex;
