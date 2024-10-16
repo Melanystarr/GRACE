@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Second js </title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+  <div class="all">
+      <div class="wrap">
+        <div class="input">
+          <input type="text" placeholder="0" id="screen">
+        </div>
+        <div class="buttons">
+          <div class="slide1">
+            <button type="button" onclick="document.getElementById('screen').value += '6'">6</button>
+            <button type="button" onclick="document.getElementById('screen') .value +='7'">7</button>
+            <button type="button" onclick="document.getElementById('screen') .value += '8'">8</button>
+           <button type="button" onclick="document.getElementById('screen') .value += '9'">9</button>
+          </div>
+          <div class="slide1">
+            <button type="button" onclick="document.getElementById('screen').value += '2'">2</button>
+            <button type="button" onclick="document.getElementById('screen').value += '3'">3</button>
+            <button type="button" onclick="document.getElementById('screen') .value += '4'">4</button>
+            <button type="button" onclick="document.getElementById('screen') .value += '5'">5</button>
+          </div>
+          <div class="slide1">
+            <button type="button" onclick="document.getElementById('screen').value += '+'">+</button>
+            <button type="button" onclick="document.getElementById('screen').value += '-'">-</button>
+            <button type="button" onclick="document.getElementById('screen').value += '0'">0</button>
+            <button type="button" onclick="document.getElementById('screen').value += '1'">1</button>
+          
+          </div>
+          <div class="slide1">
+            <button type="button" onclick="document.getElementById('screen').value += '.'">.</button>
+            <button type="button" onclick="document.getElementById('screen').value += '*'">*</button>
+            <button type="button" onclick="document.getElementById('screen').value +='/'">/</button>
+            <button type="button" onclick=" document.getElementById('screen').value = eval(document.getElementById('screen').value)"> = </button>
+          </div>
+          <div class="slide1">
+            <button style="background-color: red;color:white" onclick="document.getElementById('screen').value = document.getElementById('screen').value.slice(0,-1)">DEL</button>
+            <button style="background-color: orange;color:white" onclick="document.getElementById('screen').value= ' '">AC</button>
+            <button type="button" onclick="document.getElementById('screen').value +='**'">^</button>
+          </div>
+        
+          
+        </div>
+      </div>
+
+
+  </div>
+
+
+  <script>
+    let x = 5;
+    x--
+    console.log(x)
+
+    let b = (2*3)**4+2;
+    console.log(b)
+    var y = 6;
+
+    let v = 2;
+    let w = 4;
+
+
+  /*  console.log(x+y)
+    console.log(x-y)
+    console.log(x*y)
+    console.log(x/y)
+    console.log(x**y)
+    console.log(y%x)
+    console.log(w%v)
+    console.log(x+=y)
+    console.log(y-=x)
+
+
+    */
+
+
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
